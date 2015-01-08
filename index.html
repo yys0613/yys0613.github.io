@@ -1,40 +1,308 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Yys0613.GitHub.io by yys0613</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>尤里改的个人介绍</title>
+<link href="css/intro.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="js/skrollr.min.js" type="text/javascript"></script>
+<script src="js/intro.js" type="text/javascript"></script>
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Yys0613.GitHub.io</h1>
-        <p>Yi YongSheng(YuriYee)&#39;s website</p>
-        <p class="view"><a href="https://github.com/yys0613">View the Project on GitHub <small>yys0613</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/yys0613/yys0613.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="yys0613githubio" class="anchor" href="#yys0613githubio" aria-hidden="true"><span class="octicon octicon-link"></span></a>yys0613.github.io</h1>
-
-<p>Yi YongSheng(YuriYee)'s website</p>
-      </section>
+<body>
+<!-- 弹层 -->
+<div id="cover" onClick="hideadd('add')"></div>
+<div class="add" id="add">
+	<div class="close_btn"><a href="javascript:hideadd('add')" title="关闭">×</a></div>
+	<img src="images/mmqrcode1402335936137.png" alt="我的微信二维码" width="512" height="512" />
+</div>
+<div class="add" id="add2">
+	<div class="close_btn"><a href="javascript:hideadd('add')" title="关闭">×</a></div>
+	<img src="images/shouyou.png" alt="手游页" width="512" height="512" />
+</div>
+<div class="add" id="add3">
+	<div class="close_btn"><a href="javascript:hideadd('add')" title="关闭">×</a></div>
+	<img src="images/oi.png" alt="奥奇智慧" width="512" height="512" />
+</div>
+<!-- 导航 -->
+<div class="navigation">
+	<ul class="nav rendered"
+		data-0="transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);" 
+		data-3200="transform:rotate(240deg);
+		-moz-transform:rotate(240deg);
+		-webkit-transform:rotate(240deg);
+		-o-transform:rotate(240deg);
+		-ms-transform:rotate(240deg);"
+		data-4200="transform:rotate(300deg);
+		-moz-transform:rotate(300deg);
+		-webkit-transform:rotate(300deg);
+		-o-transform:rotate(300deg);
+		-ms-transform:rotate(300deg);"
+	>
+		<li onclick="skip_to(0)"><span class="nav_num">1</span>嗨！</li>
+		<li onclick="skip_to(800)"><span class="nav_num">2</span>我的历程</li>
+		<li onclick="skip_to(1600)"><span class="nav_num">3</span>过往案例</li>
+		<li onclick="skip_to(2400)"><span class="nav_num">4</span>碎碎念</li>
+		<li onclick="skip_to(3200)"><span class="nav_num">5</span>期望</li>
+		<li onclick="skip_to(4200)"><span class="nav_num">6</span>谢谢</li>
+	</ul>
+<div class="no_move"></div>
+</div>
+<!-- 正文开始 -->
+<div class="wrap1">
+    <div class="container rendered" 
+        data-0="transform:rotateX(-5deg) rotateY(-14deg);" 
+        data-200="transform:rotateX(-4deg) rotateY(0deg);" 
+        data-800="transform:rotateX(-5deg) rotateY(75deg);" 
+        data-1000="transform:rotateX(-6deg) rotateY(102deg);" 
+        data-1600="transform:rotateX(11deg) rotateY(168deg);" 
+        data-1800="transform:rotateX(10deg) rotateY(190deg);" 
+        data-2400="transform:rotateX(79deg) rotateY(185deg);" 
+        data-2600="transform:rotateX(86deg) rotateY(178deg);" 
+        data-3200="transform:rotateX(10deg) rotateY(259deg);" 
+        data-3400="transform:rotateX(-1deg) rotateY(281deg);" 
+        data-4000="transform:rotateX(-80deg) rotateY(362deg);" 
+        data-4200="transform:rotateX(-92deg) rotateY(359deg);" 
+    >
+        <div class="front piece">
+            <div class="sub_page page1">
+				<img class="photo" src="images/me.png" alt="头像" />
+                <h1>嗨！</h1>
+                <p>我的网名叫“尤里改”，所以有人叫我“改改”，呃……这真的不是指改页面╮(╯_╰)╭</p>
+				<p>我是一名前端工程师，在广州已快有9个年头，87年生，男，属兔，白羊座，都是食草动物，所以基本属于温和且对社会无害无副作用的生物。</p>
+				<p class="center">
+					<img class="radius" src="images/rabit.jpg" alt="兔子" />　　
+					<img class="radius" src="images/aries.jpg" alt="白羊" />
+				</p>
+				<p>从接触前端语言开始算大约有3.5年的时间，不过正式走上前端工程师的职位是在1.5年前，也就是2012年底从网易离职的时候算起。我目前在一家游戏营销广告公司就职高级前端工程师，主要负责切图重构广告专题、官网、后台页面，以及一些和广告有关的项目。</p>
+				<a title="我的属性" class="more" href="javascript:rotate_ani('front',0,90,500)">点击翻开我的更多属性</a>
+            </div>
+        </div>
+		<div class="front_2">
+			<div class="sub_page">
+				<p>以下是我的一些属性：</p>
+				<table class="cont_table">
+				<colgroup>
+				<col width="100" />
+				<col width="" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<td><b>我的标签：</b></td>
+						<td class="tb_right">
+							<ul>
+								<li>广州大学 全日制本科</li>
+								<li>电子信息科学与技术</li>
+								<li>工学学士</li>
+								<li>英语4级</li>
+								<li>未婚</li>
+								<li>家乡浙江温州地区</li>
+								<li>户籍广州海珠区</li>
+								<li><a href="javascript:show_add('add')" title="获取微信二维码">微信昵称：yuri易</a></li>
+								<li>QQ：285533176</li>
+							</ul>
+							<div class="clear"></div>
+						</td>
+					</tr>
+					<tr>
+						<td><b>熟练的技能：</b></td>
+						<td class="tb_right">
+							<ul>
+								<li>HTML + CSS</li>
+								<li>javascript</li>
+								<li>jQuery</li>
+								<li>photoshop切图</li>
+								<li>HTML5 + CSS3</li>
+							</ul>
+							<div class="clear"></div>
+						</td>
+					</tr>
+					<tr class="insert_blank">
+						<td><b>一般的技能：</b></td>
+						<td class="tb_right">
+							<ul>
+								<li>python & Django框架</li>
+								<li>svn</li>
+								<li>MySQL</li>
+								<li>PHP</li>
+								<li>jQuery Mobile</li>
+							</ul>
+							<div class="clear"></div>
+						</td>
+					</tr>
+					<tr>
+						<td><b>已有了解或在计划学习：</b></td>
+						<td class="tb_right">
+							<ul>
+								<li>ASP</li>
+								<li>Node.js</li>
+								<li>flash + actionscript</li>
+							</ul>
+							<div class="clear"></div>
+						</td>
+					</tr>
+				</tbody>
+				</table>
+				<a title="返回" class="more" href="javascript:rotate_ani('front',90,0,500)">返回，然后鼠标向下滚动</a>
+			</div>
+		</div>
+        <div class="left piece">
+            <div class="sub_page page2">
+				<h1>我的历程</h1>
+				<div id="content_1" class="over_y mCustomScrollbar _mCS_1">
+					<table class="p2_table">
+					<colgroup>
+					<col width="140" />
+					<col width="" />
+					</colgroup>
+					<tbody>
+						<tr>
+							<td><img src="images/gd.png" alt="广州大学" /></td>
+							<td class="tb_right">
+								<p><b>广州大学</b><br />
+	2005年～2009年就读于广州大学，大学城校区，物理与电子工程学院，电子信息科学与技术专业。</p>
+								<p>出于填报志愿的偶然，我只身来到了广州这个城市，也慢慢喜欢上了这个城市，现如今已经在广州将近九年光景。</p>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/ne.png" alt="网易" /></td>
+							<td class="tb_right">
+								<p><b>广州网易</b><br />
+	2009年5月～2012年底，就职广州网易，这也是我的第一份工作，历时两个月的实习后，顺利签约进入了游戏运营部，从《梦幻西游》游戏的一名GM开始做起。</p>
+								<P>1年后，任职信息管理类的职位（他们叫FAQ），我是这个岗位的第一个人，当时也只有我一个人做，利用公司的内部平台编辑客服知识库，也是在这里开始接触了维基百科的开源代码，并由此开始学习上了HTML语言。</P>
+								<p>再过半年，我调任运营研究组，任职运营研究员，属于二线支持，有很多样的工作内容，例如：利用后台维护客服网站、管理账户权限、分析数据、撰写方案、总结结案等，这个岗位也给了我很多发展方向的选择，走向前端技术，可以说是工作给我了引导，同时也包含我自己一步步跟随兴趣选择的结果，当别人照着看不懂的代码模板复制粘贴的时候，我会去研究它的机制，记得与我接口的程序对我说“其实你现在自己学习下python，整个专区你就可以自己维护了”。</p>
+								<p>随着前端技术的长进，萌生了我向正式的前端岗位发展，但部门并不设此职位，大的页面前端制作需求一般跨部门完成，而在公司跨大部门的转岗流程复杂，此时前同事的邀请让我最终决定追随自己的向往，2012年12月离职网易。</p>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/okidea.png" alt="奥奇智慧" /></td>
+							<td class="tb_right">
+								<p><b>奥奇智慧(诺阳广告有限公司)</b><br />
+这是一家专注于游戏广告营销的公司，长期与搜狐畅游下的17173.com网站合作，并且与其他各式各样的游戏厂商例如空中网、37游戏等有密切的合作，这也让我接触了不少合作公司的技术员以及他们的工作方式。</p>
+								<p>我在此期间主要负责各式的广告专题页面切图重构、广告投放代码制作、官网修改维护、移动端页面制作、广告管理平台的界面设计和前端制作，以及跟进一些需要和多方程序接口的项目（他们说，这个项目你懂技术的和他们好沟通一些 0_0）。</p>
+								<p>记得初来时公司只有我一个前端工程师，忙时还需要管理外包团队完成需求，之后在2013年时我面试招聘了一名刚毕业的新人，经过辅导已经成长起来，现在我需要使用像SVN这样的工具来协调两个人的工作。</p>
+								<p>我自学和练习的步伐仍然不停息，现在，我期待一个更棒的平台。</p>
+							</td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+            </div>
+        </div>
+        <div class="back piece">
+            <div class="sub_page page3">
+            	<h1>过往案例</h1>
+				<ul>
+					<li>
+						<a href="http://act.17173.com/2013/12/dj1214/index.php" target="_blank" title="腾讯《刀剑2》在17173的专题页">
+							<img src="images/exp1.jpg" alt="刀剑2" />
+							<span>腾讯《刀剑2》专题页</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://act.17173.com/2013/06/dy0609/" target="_blank" title="多益《神武》在17173的专题页">
+							<img src="images/exp2.jpg" alt="神武" />
+							<span>多益《神武》专题页</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://zhan.kongzhong.com/" target="_blank" title="空中网《国战》官网整站制作，例如游戏排行榜页使用了异步的数据加载">
+							<img src="images/exp3.jpg" alt="国战" />
+							<span>空中网《国战》官网</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://act.17173.com/2013/06/dt0608/" target="_blank" title="网易《大唐无双》在17173的专题页">
+							<img src="images/exp4.jpg" alt="大唐无双" />
+							<span>网易《大唐无双》专题页</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:show_add('add2')" title="《风林火山》专题WAP页，17173旗下的WAP站，往期被覆盖更新">
+							<img src="images/exp5.jpg" alt="风林火山" />
+							<span>《风林火山》专题WAP页</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://act.17173ie.com/2013/11/yqs1115/" target="_blank" title="17173浏览器活动页">
+							<img src="images/exp6.jpg" alt="17173浏览器" />
+							<span>17173浏览器活动页</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://act.17173.com/2014/03/jzwj0304/" target="_blank" title="空中网《激战2》在17173的专题页">
+							<img src="images/exp7.jpg" alt="激战2" />
+							<span>空中网《激战2》专题页</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:show_add('add3')" title="奥奇智慧WAP站，设计仍在改版和完善中，未完工">
+							<img src="images/exp8.jpg" alt="奥奇智慧" />
+							<span>奥奇智慧WAP站(未完)</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://marketing.17173.com/adshow/page/index1.html" target="_blank" title="17173广告投放，此页面为广告示例页，我完成了这些广告投放的javascript">
+							<img src="images/exp9.jpg" alt="17173广告" />
+							<span>17173广告投放js(示例页)</span>
+						</a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+            </div>
+        </div>
+        <div class="bottom piece">
+            <div class="sub_page page4">
+				<h1>碎碎念</h1>
+				<p>简单说一说我对前端的感悟</p>
+				<p>
+				　　我自学踏入前端的领域，从网易游戏的一名运营人员离职正式转战做技术的时候，也有一些朋友劝我“你半路出家的，怎么比得过人家科班出身的人，再考虑考虑吧”。如今我觉得我已经走过来，从现在的公司上级说“是我用过最好用的前端”，到合作公司的后端技术说“你怎么会才做一年前端（当时时间），我还以为起码有两三年了呢”，虽然我仍怀着学习的紧迫感，但回头看看在这个方向上所走的路，业已且行且远。
+				</p>
+				<p>
+				　　我觉得兴趣是持续保持学习和前进的动力，而我正是喜欢这种极富表现力的技术，喜欢这种游走于美术与程序之间、感性和理性之间的工作，对，我喜欢它。</p>
+				<p>
+				　　我觉得编程人员用古代的说法应该算一种“匠人”，而好的匠人需要有一颗匠心，独具匠心的意思是，你的作品需要有你的灵魂，让它变得特别，我想这应该正是前端技术所追求的东西。
+				</p>
+            </div>
+        </div>
+        <div class="right piece">
+            <div class="sub_page page5">
+            	<h1>期望</h1>
+				<p>　　很久前偶然的机会在页面的源码里看到腾讯<a href="http://tgideas.qq.com/" target="_blank">TGideas团队的博客</a>，经常会去看看分享的文章，看过他们的<a href="http://tgideas.qq.com/cguide/" target="_blank">外包页面规范</a>，还有他们做的milo插件，觉得受益良多，后来有一次还和TGidea的设计师有过一次合作，我觉得所期望的团队不外乎如此，能有一些不同领域的人，来交流，来分享，然后一起去努力完成一个了不起的目标。</p>
+				<p>　　当然，我觉得喜欢一个团队的方式可以是加入他，也可以是学习他，我喜欢前端技术，我也喜欢广州这座城市:)</p>
+            </div>
+        </div>
+        <div class="top piece">
+            <div class="sub_page page6">
+            	<h1>谢谢观看</h1>
+				<p class="center">
+<img src="images/meet.jpg" alt="see U" width="440" /><br />
+感谢与你的相遇
+</p>
+				
+            </div>
+        </div>
     </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+</div>
+<script src="js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+(function($){
+	$(window).load(function(){
+		$("#content_1").mCustomScrollbar({
+			autoHideScrollbar:true,
+			theme:"light-thin"
+		});
+	});
+})(jQuery);
+
+if (window.ActiveXObject){
+	alert('建议使用Chrome、火狐、opera等非IE系列浏览器观看，移动设备可使用安卓系统的浏览器浏览，IOS系统下效果会打折扣')
+}
+</script>
+</body>
 </html>
